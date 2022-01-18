@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c4588c98.chunk.css",
-    "main.js": "/static/js/main.60d7309c.chunk.js",
-    "main.js.map": "/static/js/main.60d7309c.chunk.js.map",
+    "main.js": "/static/js/main.419e2967.chunk.js",
+    "main.js.map": "/static/js/main.419e2967.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.26096b02.js",
     "runtime-main.js.map": "/static/js/runtime-main.26096b02.js.map",
     "static/js/2.f6288a35.chunk.js": "/static/js/2.f6288a35.chunk.js",
@@ -17,12 +17,13 @@
     "static/media/hiccup1.c166bcfb.jpg": "/static/media/hiccup1.c166bcfb.jpg",
     "static/media/hiccup2.f747f782.jpg": "/static/media/hiccup2.f747f782.jpg",
     "static/media/Home.css": "/static/media/home.7644ae0f.jpg",
+    "static/media/portfolio.0029fbe3.JPG": "/static/media/portfolio.0029fbe3.JPG",
     "static/media/resume.2246e515.txt": "/static/media/resume.2246e515.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.26096b02.js",
     "static/js/2.f6288a35.chunk.js",
     "static/css/main.c4588c98.chunk.css",
-    "static/js/main.60d7309c.chunk.js"
+    "static/js/main.419e2967.chunk.js"
   ]
 }
