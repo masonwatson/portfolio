@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.157555ea.chunk.css",
+    "main.css": "./static/css/main.c63fc76f.chunk.css",
     "main.js": "./static/js/main.f00d6cc1.chunk.js",
     "main.js.map": "./static/js/main.f00d6cc1.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.6e960b52.js",
@@ -8,7 +8,7 @@
     "static/js/2.2005a844.chunk.js": "./static/js/2.2005a844.chunk.js",
     "static/js/2.2005a844.chunk.js.map": "./static/js/2.2005a844.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.157555ea.chunk.css.map": "./static/css/main.157555ea.chunk.css.map",
+    "static/css/main.c63fc76f.chunk.css.map": "./static/css/main.c63fc76f.chunk.css.map",
     "static/js/2.2005a844.chunk.js.LICENSE.txt": "./static/js/2.2005a844.chunk.js.LICENSE.txt",
     "static/media/index.css": "./static/media/Roboto-Regular.a8d6ac03.ttf",
     "static/media/cowboy1.e4135199.jpg": "./static/media/cowboy1.e4135199.jpg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.6e960b52.js",
     "static/js/2.2005a844.chunk.js",
-    "static/css/main.157555ea.chunk.css",
+    "static/css/main.c63fc76f.chunk.css",
     "static/js/main.f00d6cc1.chunk.js"
   ]
 }
