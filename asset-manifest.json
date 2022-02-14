@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "./static/css/main.0555fedd.chunk.css",
-    "main.js": "./static/js/main.17cbbde1.chunk.js",
-    "main.js.map": "./static/js/main.17cbbde1.chunk.js.map",
+    "main.css": "./static/css/main.61ffd701.chunk.css",
+    "main.js": "./static/js/main.8849d167.chunk.js",
+    "main.js.map": "./static/js/main.8849d167.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.6e960b52.js",
     "runtime-main.js.map": "./static/js/runtime-main.6e960b52.js.map",
     "static/js/2.2005a844.chunk.js": "./static/js/2.2005a844.chunk.js",
     "static/js/2.2005a844.chunk.js.map": "./static/js/2.2005a844.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.0555fedd.chunk.css.map": "./static/css/main.0555fedd.chunk.css.map",
+    "static/css/main.61ffd701.chunk.css.map": "./static/css/main.61ffd701.chunk.css.map",
     "static/js/2.2005a844.chunk.js.LICENSE.txt": "./static/js/2.2005a844.chunk.js.LICENSE.txt",
     "static/media/index.css": "./static/media/Roboto-Regular.a8d6ac03.ttf",
     "static/media/cowboy1.e4135199.jpg": "./static/media/cowboy1.e4135199.jpg",
     "static/media/hiccup1.c166bcfb.jpg": "./static/media/hiccup1.c166bcfb.jpg",
     "static/media/hiccup2.f747f782.jpg": "./static/media/hiccup2.f747f782.jpg",
-    "static/media/Home.css": "./static/media/home.7644ae0f.jpg",
     "static/media/pathfinding-visualizer.320f828c.JPG": "./static/media/pathfinding-visualizer.320f828c.JPG",
+    "static/media/Contact.css": "./static/media/pawel-orange-ridge.cb35b234.jpg",
     "static/media/portfolio.787c4b17.JPG": "./static/media/portfolio.787c4b17.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.6e960b52.js",
     "static/js/2.2005a844.chunk.js",
-    "static/css/main.0555fedd.chunk.css",
-    "static/js/main.17cbbde1.chunk.js"
+    "static/css/main.61ffd701.chunk.css",
+    "static/js/main.8849d167.chunk.js"
   ]
 }
