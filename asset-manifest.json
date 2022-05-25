@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.207e4473.chunk.css",
-    "main.js": "./static/js/main.97c75953.chunk.js",
-    "main.js.map": "./static/js/main.97c75953.chunk.js.map",
+    "main.js": "./static/js/main.a0b46044.chunk.js",
+    "main.js.map": "./static/js/main.a0b46044.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.6e960b52.js",
     "runtime-main.js.map": "./static/js/runtime-main.6e960b52.js.map",
     "static/js/2.f8b31711.chunk.js": "./static/js/2.f8b31711.chunk.js",
@@ -13,7 +13,7 @@
     "static/media/index.css": "./static/media/Roboto-Regular.a8d6ac03.ttf",
     "static/media/checker-pygame.38fcc688.JPG": "./static/media/checker-pygame.38fcc688.JPG",
     "static/media/matching-dice.0347388b.JPG": "./static/media/matching-dice.0347388b.JPG",
-    "static/media/pathfinding-visualizer.4140bf0e.JPG": "./static/media/pathfinding-visualizer.4140bf0e.JPG",
+    "static/media/pathfinding-visualizer.a162b13d.JPG": "./static/media/pathfinding-visualizer.a162b13d.JPG",
     "static/media/Contact.scss": "./static/media/pawel-orange-ridge.cb35b234.jpg",
     "static/media/sorting-visualizer.990a5f12.JPG": "./static/media/sorting-visualizer.990a5f12.JPG"
   },
@@ -21,6 +21,6 @@
     "static/js/runtime-main.6e960b52.js",
     "static/js/2.f8b31711.chunk.js",
     "static/css/main.207e4473.chunk.css",
-    "static/js/main.97c75953.chunk.js"
+    "static/js/main.a0b46044.chunk.js"
   ]
 }
