@@ -119,8 +119,6 @@
   background-color: #f2f2f2;
 }
 
-
-
 /* STAGE */
 .stage-perspective {
   position: relative;
@@ -209,7 +207,8 @@
   }
 
   .projects a::after {
-    top: .28em;
+    top: .25em;
+    text-rendering: optimizeLegibility;
   }
 }
 
