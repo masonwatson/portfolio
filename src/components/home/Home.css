@@ -209,6 +209,7 @@
   .projects a::after {
     top: .25em;
     text-rendering: optimizeLegibility;
+    width: 1px;
   }
 }
 
