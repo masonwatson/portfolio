@@ -11,3 +11,60 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a {
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2em;
+}
+
+p {
+  margin: 0;
+  line-height: 1.2em;
+}
+
+@font-face {
+  font-family: "Oswald-SemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/Oswald-SemiBold.ttf')
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/Poppins-Regular.ttf')
+}
+
+@font-face {
+  font-family: "Poppins-ExtraBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/Poppins-ExtraBold.ttf')
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/Roboto-Light.ttf')
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/Roboto-Regular.ttf')
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/Roboto-Medium.ttf')
+}

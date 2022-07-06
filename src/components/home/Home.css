@@ -1,0 +1,188 @@
+.home-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+
+  overflow:auto;
+}
+
+@media only screen and (max-width: 897px) {
+  .home-container {
+    padding-top: 70px;
+  }
+}
+
+.stage-container {
+  z-index: 50;
+}
+
+.projects {
+  position: relative;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  text-align: right;
+  width: 95%;
+  transform-style: preserve-3d;
+}
+
+.projects-li {
+  cursor: pointer;
+  transform-style: preserve-3d;
+}
+
+.project-container {
+  transform: rotate3d(0, 1, 0, -45deg) translateZ(0) scale(1);
+  transform-origin: right center;
+  transform-style: preserve-3d;
+  will-change: transform;
+
+  transition: transform 1s;
+}
+
+.projects-li:hover .project-container {
+  transform: rotate3d(0, 1, 0, -35deg) translateZ(0) scale(1);
+  transition-duration: 0.5s;
+}
+
+.projects a {
+  position: relative;
+  color: transparent;
+  -webkit-text-stroke: 2px #fff;
+  text-transform: uppercase;
+
+  font-weight: 900;
+  font-style: normal;
+
+  font-size: 9.6vw;
+  backface-visibility: hidden;
+  letter-spacing: 0.02em;
+  line-height: 0.9em;
+
+  transition: color .5s, opacity .5s;
+}
+
+@supports (-webkit-text-stroke: 2px #fff) {
+  .projects-li:hover a {
+    color: #fff;
+  }
+}
+
+@supports (text-stroke: 2px #fff) {
+  .projects-li:hover a {
+    color: #fff;
+  }
+}
+
+.projects a::before {
+  white-space: pre;
+  position: absolute;
+  top: 1.59em;
+  font-size: 1.75vw;
+  line-height: 1.75em;
+  color: #f2f2f2;
+
+  -webkit-text-stroke: 0px;
+
+  font-family: Oswald-SemiBold;
+}
+
+.project-container.pathfinding-visualizer a::before {
+  content:'js  react  node';
+  left: -19vw;
+}
+
+.project-container.sorting-visulizer a::before {
+  content:'js  react  node';
+  left: -19vw;
+}
+
+.project-container.note-taker a::before {
+  content:'js  mongodb';
+  left: -15vw;
+}
+
+.project-container.api-project a::before {
+  content:'js';
+  left: -5vw;
+}
+
+.projects a::after {
+  content: '';
+  position: absolute;
+  transform: rotate(25deg);
+  top: .34em;
+  left: -.3em;
+  height: .79em;
+  width: 2px;
+  pointer-events: none;
+  background-color: #f2f2f2;
+}
+
+/* STAGE */
+.stage-perspective {
+  position: relative;
+  width: 100%;
+  perspective: 100vw;
+}
+
+.stage-container {
+  position: relative;
+  width: 100%;
+  transform: translateZ(0);
+  transform-style: preserve-3d;
+}
+
+@media only screen and (min-width: 897px) {
+  .stage-container {
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 897px) {
+  .stage-container {
+    height: 70vh;
+  }
+
+  .projects a {
+    font-size: 13vw;
+  }
+
+  .projects a::before {
+    font-size: 4vw;
+    top: .7em;
+  }
+
+  .project-container.pathfinding-visualizer a::before {
+    left: -37vw;
+  }
+  
+  .project-container.sorting-visulizer a::before {
+    left: -37vw;
+  }
+  
+  .project-container.note-taker a::before {
+    left: -30vw;
+  }
+  
+  .project-container.api-project a::before {
+    left: -8vw;
+  }
+}
+
+.stage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  padding-top: 4vh;
+  transform-style: preserve-3d;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.parallax-perspective {
+  perspective-origin: 50% 50%;
+  will-change: perspective-origin;
+}
