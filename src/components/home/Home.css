@@ -74,12 +74,6 @@
   }
 }
 
-@media only screen and (max-width: 420px) {
-  .projects a {
-    color: #fff;
-  }
-}
-
 .projects a::before {
   white-space: pre;
   position: absolute;
@@ -125,6 +119,8 @@
   background-color: #f2f2f2;
 }
 
+
+
 /* STAGE */
 .stage-perspective {
   position: relative;
@@ -139,13 +135,14 @@
   transform-style: preserve-3d;
 }
 
+/* Responsiveness */
 @media only screen and (min-width: 897px) {
   .stage-container {
     height: 100vh;
   }
 }
 
-@media only screen and (max-width: 897px) {
+@media only screen and (min-width: 420px) and (max-width: 897px) {
   .stage-container {
     height: 70vh;
   }
@@ -173,6 +170,46 @@
   
   .project-container.api-project a::before {
     left: -8vw;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .stage-container {
+    height: 70vh;
+  }
+
+  .projects a {
+    font-size: 13vw;
+  }
+
+  .projects a::before {
+    font-size: 4vw;
+    top: .7em;
+  }
+
+  .projects a {
+    color: #fff;
+    -webkit-text-stroke: 0px;
+  }
+
+  .project-container.pathfinding-visualizer a::before {
+    left: -39vw;
+  }
+  
+  .project-container.sorting-visulizer a::before {
+    left: -39vw;
+  }
+  
+  .project-container.note-taker a::before {
+    left: -32vw;
+  }
+  
+  .project-container.api-project a::before {
+    left: -8vw;
+  }
+
+  .projects a::after {
+    top: .28em;
   }
 }
 
