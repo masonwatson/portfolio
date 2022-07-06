@@ -3,7 +3,7 @@
   height: 100vh;
   background-color: #000;
 
-  overflow:auto;
+  overflow: auto;
 }
 
 @media only screen and (max-width: 897px) {
@@ -70,6 +70,12 @@
 
 @supports (text-stroke: 2px #fff) {
   .projects-li:hover a {
+    color: #fff;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .projects a {
     color: #fff;
   }
 }
