@@ -1,29 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.7539b066.chunk.css",
-    "main.js": "./static/js/main.d7523f08.chunk.js",
-    "main.js.map": "./static/js/main.d7523f08.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.6e960b52.js",
-    "runtime-main.js.map": "./static/js/runtime-main.6e960b52.js.map",
-    "static/css/2.b1dcade9.chunk.css": "./static/css/2.b1dcade9.chunk.css",
-    "static/js/2.e06720cc.chunk.js": "./static/js/2.e06720cc.chunk.js",
-    "static/js/2.e06720cc.chunk.js.map": "./static/js/2.e06720cc.chunk.js.map",
+    "main.css": "./static/css/main.b4d152e1.css",
+    "main.js": "./static/js/main.0583c8f7.js",
+    "static/media/Roboto-Medium.ttf": "./static/media/Roboto-Medium.7429a63c09f79a1760b0.ttf",
+    "static/media/Roboto-Regular.ttf": "./static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Roboto-Light.ttf": "./static/media/Roboto-Light.333da16a3f3cc391d087.ttf",
+    "static/media/Poppins-Regular.ttf": "./static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "./static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/Oswald-SemiBold.ttf": "./static/media/Oswald-SemiBold.e0fed9f7e794ef10a37c.ttf",
     "index.html": "./index.html",
-    "static/css/2.b1dcade9.chunk.css.map": "./static/css/2.b1dcade9.chunk.css.map",
-    "static/css/main.7539b066.chunk.css.map": "./static/css/main.7539b066.chunk.css.map",
-    "static/js/2.e06720cc.chunk.js.LICENSE.txt": "./static/js/2.e06720cc.chunk.js.LICENSE.txt",
-    "static/media/index.css": "./static/media/Roboto-Regular.a8d6ac03.ttf",
-    "static/media/checker-pygame.38fcc688.JPG": "./static/media/checker-pygame.38fcc688.JPG",
-    "static/media/matching-dice.0347388b.JPG": "./static/media/matching-dice.0347388b.JPG",
-    "static/media/pathfinding-visualizer.a162b13d.JPG": "./static/media/pathfinding-visualizer.a162b13d.JPG",
-    "static/media/Home.css": "./static/media/pawel-orange-ridge.cb35b234.jpg",
-    "static/media/sorting-visualizer.990a5f12.JPG": "./static/media/sorting-visualizer.990a5f12.JPG"
+    "main.b4d152e1.css.map": "./static/css/main.b4d152e1.css.map",
+    "main.0583c8f7.js.map": "./static/js/main.0583c8f7.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.6e960b52.js",
-    "static/css/2.b1dcade9.chunk.css",
-    "static/js/2.e06720cc.chunk.js",
-    "static/css/main.7539b066.chunk.css",
-    "static/js/main.d7523f08.chunk.js"
+    "static/css/main.b4d152e1.css",
+    "static/js/main.0583c8f7.js"
   ]
 }
