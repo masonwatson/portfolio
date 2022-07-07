@@ -174,17 +174,53 @@ export default function Header() {
             </p>
           </div>
           <div className="right">
-            <h5 className="heading education">Education</h5>
-            <h6>Bachelor of Science in Computer Science</h6>
-            <p className="school-para">Texas State University, San Marcos</p>
+            <div className="col-1">
+              <h5 className="heading education">Education</h5>
+              <h6>Bachelor of Science in Computer Science</h6>
+              <p className="school-para">Texas State University, San Marcos</p>
+              <h5 className="heading skills">Language Proficiency</h5>
+              <div className="language-chart">
+                <h6 className="bar-title">Python</h6>
+                <div className="bar">
+                  <div className="bar-inner bar-95" data-percent="95%"/>
+                </div>
+                <h6 className="bar-title">JavaScript</h6>
+                <div className="bar">
+                  <div className="bar-inner bar-95" data-percent="95%"/>
+                </div>
+                <h6 className="bar-title">HTML & CSS</h6>
+                <div className="bar">
+                  <div className="bar-inner bar-90" data-percent="90%"/>
+                </div>
+                <h6 className="bar-title">Java</h6>
+                <div className="bar">
+                  <div className="bar-inner bar-70" data-percent="70%"/>
+                </div>
+                <h6 className="bar-title">C#</h6>
+                <div className="bar">
+                  <div className="bar-inner bar-85" data-percent="85%"/>
+                </div>
+                <h6 className="bar-title">C/C++</h6>
+                <div className="bar">
+                  <div className="bar-inner bar-80" data-percent="80%"/>
+                </div>
+                
+                <h6 className="bar-title">SQL</h6>
+                <div className="bar">
+                  <div className="bar-inner bar-85" data-percent="85%"/>
+                </div>
+              </div>
+            </div>
+            <div className="col-2">
             <h5 className="heading skills">Skills</h5>
-            <p className="skills-para">
-              Data Structures & Algorithms, Object Oriented Design &
-              Implementation, MVC Architecture, ASP.NET, Razor Pages, Node,
-              React, Bootstrap, jQuery, JSON, Flask, MySQL, MongoDB, APIs, SDKs,
-              Version Control, Git, Linux/Unix, Agile Development, Strategic
-              Planning, Software Documentation
-            </p>
+              <p className="skills-para">
+                Data Structures & Algorithms, Object Oriented Design &
+                Implementation, MVC Architecture, ASP.NET, Razor Pages, Node,
+                React, Bootstrap, jQuery, JSON, Flask, MySQL, MongoDB, APIs,
+                SDKs, Version Control, Git, Linux/Unix, Agile Development,
+                Strategic Planning, Software Documentation
+              </p>
+            </div>
           </div>
         </div>
       </section>
