@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.64d9d611.css",
-    "main.js": "./static/js/main.0583c8f7.js",
+    "main.css": "./static/css/main.578ee170.css",
+    "main.js": "./static/js/main.530e3d1b.js",
     "static/media/Roboto-Medium.ttf": "./static/media/Roboto-Medium.7429a63c09f79a1760b0.ttf",
     "static/media/Roboto-Regular.ttf": "./static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/Roboto-Light.ttf": "./static/media/Roboto-Light.333da16a3f3cc391d087.ttf",
@@ -9,11 +9,11 @@
     "static/media/Poppins-ExtraBold.ttf": "./static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
     "static/media/Oswald-SemiBold.ttf": "./static/media/Oswald-SemiBold.e0fed9f7e794ef10a37c.ttf",
     "index.html": "./index.html",
-    "main.64d9d611.css.map": "./static/css/main.64d9d611.css.map",
-    "main.0583c8f7.js.map": "./static/js/main.0583c8f7.js.map"
+    "main.578ee170.css.map": "./static/css/main.578ee170.css.map",
+    "main.530e3d1b.js.map": "./static/js/main.530e3d1b.js.map"
   },
   "entrypoints": [
-    "static/css/main.64d9d611.css",
-    "static/js/main.0583c8f7.js"
+    "static/css/main.578ee170.css",
+    "static/js/main.530e3d1b.js"
   ]
 }
