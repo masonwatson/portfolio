@@ -211,6 +211,20 @@ button.link {
   }
 }
 
+.about .col-1, .about .col-2, .about .right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about .col-1, .about .col-2 {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  width: 50%;
+  /* margin-bottom: 10px; */
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -236,24 +250,89 @@ button.link {
   font-family: Roboto-Light;
 }
 
+.about .right .col-1 {
+  display: block;
+  margin-bottom: 70px;
+}
+
+/* LANGUAGES CHART */
+.about .language-chart h6.bar-title {
+  font-family: Roboto-Light;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.about .language-chart {
+  width: 80%;
+}
+
+.about .language-chart .bar {
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+  width: 100%;
+  height: 12px;
+  margin-bottom: 12px;
+}
+
+.about .language-chart .bar .bar-inner {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  /* width: 0%; */
+  height: 100%;
+}
+
+.bar-90 {
+  width: 90%;
+}
+
+.bar-95 {
+  width: 95%;
+}
+
+.bar-85 {
+  width: 85%;
+}
+
+.bar-80 {
+  width: 80%;
+}
+
+.bar-70 {
+  width: 70%;
+}
+
+.bar-inner:after {
+  position: fixed;
+  left: 69%;
+  line-height: 15px;
+  color: #f2f2f2;
+  font-family: Roboto-Light;
+  content: attr(data-percent);
+}
+
 @media only screen and (min-width: 897px) {
   .about .container {
     padding-top: 32vh;
   }
 
   .about .left {
-    width: 55%;
+    width: 50%;
     text-align: left;
-    padding-left: 24vw;
+    padding-left: 5vw;
     padding-right: 1vw;
     line-height: 1.2em;
   }
 
   .about .right {
-    width: 45%;
+    width: 50%;
     text-align: left;
-    padding-right: 24vw;
+    padding-right: 5vw;
     padding-left: 1vw;
+  }
+
+  .about .right .col-2 {
+    padding-left: 20px;
   }
 
   .about .heading {
@@ -291,10 +370,19 @@ button.link {
     padding-bottom: 100px;
   }
 
-  .about .left,
-  .about .right {
+  .about .left {
     width: 65%;
     text-align: left;
+  }
+
+  .about .right .col-1,
+  .about .right .col-2 {
+    width: 59%;
+    text-align: left;
+  }
+
+  .about .right {
+    display: block;
   }
 
   .about .heading {
@@ -324,6 +412,10 @@ button.link {
 
   .about .right .school-para {
     padding-bottom: 70px;
+  }
+
+  .bar-inner:after {
+    left: 60%;
   }
 }
 
