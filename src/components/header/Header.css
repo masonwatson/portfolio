@@ -303,9 +303,9 @@ button.link {
 }
 
 .bar-inner:after {
-  position: fixed;
+  position: absolute;
   left: 69%;
-  line-height: 15px;
+  line-height: 12px;
   color: #f2f2f2;
   font-family: Roboto-Light;
   content: attr(data-percent);
@@ -313,7 +313,7 @@ button.link {
 
 @media only screen and (min-width: 897px) {
   .about .container {
-    padding-top: 32vh;
+    padding-top: 28vh;
   }
 
   .about .left {
