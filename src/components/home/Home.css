@@ -98,8 +98,8 @@
 }
 
 .project-container.note-taker a::before {
-  content:'js  mongodb';
-  left: -15vw;
+  content:'js  react  node  json';
+  left: -24vw;
 }
 
 .project-container.api-project a::before {
@@ -163,7 +163,7 @@
   }
   
   .project-container.note-taker a::before {
-    left: -30vw;
+    left: -48vw;
   }
   
   .project-container.api-project a::before {
@@ -199,11 +199,11 @@
   }
   
   .project-container.note-taker a::before {
-    left: -32vw;
+    left: -49vw;
   }
   
   .project-container.api-project a::before {
-    left: -8vw;
+    left: -9vw;
   }
 
   .projects a::after {
