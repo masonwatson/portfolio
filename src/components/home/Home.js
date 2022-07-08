@@ -47,7 +47,7 @@ export default function Home() {
                   </li>
                   <li
                     className="projects-li"
-                    onClick={() => redirectPage("https://www.google.com/")}
+                    onClick={() => redirectPage("https://masonwatson.github.io/note-taker/")}
                   >
                     <div className="project-container note-taker">
                       <a>
@@ -57,7 +57,7 @@ export default function Home() {
                   </li>
                   <li
                     className="projects-li"
-                    onClick={() => redirectPage("https://www.google.com/")}
+                    onClick={() => redirectPage("https://masonwatson.github.io/api-project/")}
                   >
                     <div className="project-container api-project">
                       <a>

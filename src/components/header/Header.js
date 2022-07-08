@@ -114,7 +114,7 @@ export default function Header() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span>03</span>
+                    <span>02</span>
                     <strong>&ensp; resume</strong>
                   </a>
                 </li>
