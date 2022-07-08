@@ -108,13 +108,9 @@ export default function Header() {
                   </button>
                 </li>
                 <li className="resume-li">
-                  {/* <button className="link" onClick={() => openResume()}>
-                    <span>02</span>
-                    <strong>&ensp; resume</strong>
-                  </button> */}
                   <a
                     className="social-link link"
-                    href="https://drive.google.com/file/d/1jSz-PrgY3eSsJkSD12PQPF9dQN82mpKE/view"
+                    href="https://drive.google.com/file/d/1jSz-PrgY3eSsJkSD12PQPF9dQN82mpKE/view?usp=sharing"
                     target="_blank"
                     rel="noreferrer"
                   >
