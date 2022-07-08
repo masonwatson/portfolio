@@ -51,7 +51,9 @@ export default function Home() {
                   >
                     <div className="project-container note-taker">
                       <a>
-                        Notes
+                        Note
+                        <br />
+                        Taker
                       </a>
                     </div>
                   </li>
