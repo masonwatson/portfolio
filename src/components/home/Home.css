@@ -87,6 +87,11 @@
   font-family: Oswald-SemiBold;
 }
 
+.project-container.moviebox a::before {
+  content:'js  react  node  express  mongodb';
+  left: -38vw;
+}
+
 .project-container.pathfinding-visualizer a::before {
   content:'js  react  node';
   left: -19vw;
@@ -154,6 +159,11 @@
     top: .7em;
   }
 
+  .project-container.moviebox a::before {
+    content:'js  react  node  express  mongodb';
+    left: -78vw;
+  }
+
   .project-container.pathfinding-visualizer a::before {
     left: -37vw;
   }
@@ -188,6 +198,11 @@
   .projects a {
     color: #fff;
     -webkit-text-stroke: 0px;
+  }
+
+  .project-container.moviebox a::before {
+    content:'js  react  node  express  mongodb';
+    left: -80vw;
   }
 
   .project-container.pathfinding-visualizer a::before {

@@ -13,6 +13,20 @@ export default function Home() {
             <div className="stage-container">
               <main className="stage">
                 <ul className="projects">
+                <li
+                    className="projects-li"
+                    onClick={() =>
+                      redirectPage(
+                        "https://masonwatson.github.io/client/"
+                      )
+                    }
+                  >
+                    <div className="project-container moviebox">
+                      <a>
+                        MovieBox
+                      </a>
+                    </div>
+                  </li>
                   <li
                     className="projects-li"
                     onClick={() =>
