@@ -202,7 +202,7 @@
 
   .project-container.moviebox a::before {
     content:'js  react  node  express  mongodb';
-    left: -82vw;
+    left: -83vw;
   }
 
   .project-container.pathfinding-visualizer a::before {
