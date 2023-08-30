@@ -110,7 +110,8 @@ export default function Header() {
                 <li className="resume-li">
                   <a
                     className="social-link link"
-                    href="https://drive.google.com/file/d/1jSz-PrgY3eSsJkSD12PQPF9dQN82mpKE/view?usp=sharing"
+                    // href="https://drive.google.com/file/d/1jSz-PrgY3eSsJkSD12PQPF9dQN82mpKE/view?usp=sharing"
+                    href="https://github.com/masonwatson"
                     target="_blank"
                     rel="noreferrer"
                   >
